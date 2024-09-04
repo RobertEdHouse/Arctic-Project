@@ -1,1 +1,1 @@
-[Consept Document](Arctic Project Obsidian Vault/Concept.md)
+[Consept Document](Arctic%20Project%20Obsidian%20Vault/Concept.md)
