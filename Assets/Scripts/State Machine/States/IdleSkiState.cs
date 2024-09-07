@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class IdleSkiState : State
 {
-    public IdleSkiState(Player player) : base(player)
+    public IdleSkiState(Player player, AnimationController animator) : base(player, animator)
     {
     }
     public override void EnterState(StateMachine stateMachine)
     {
         Debug.Log("Enter IdleSki State");
+        _animator.IdleAnim();
         //set animation "Idle"
     }
 
@@ -23,5 +24,10 @@ public class IdleSkiState : State
         {
             stateMachine.SwitchState(stateMachine.SkiState);
         }
+    }
+
+    public override void ExitState(StateMachine stateMachine)
+    {
+        _animator.IdleAnimReset();
     }
 }

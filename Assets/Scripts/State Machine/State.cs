@@ -5,12 +5,13 @@ using UnityEngine;
 public class State
 {
     protected Player _player;
-    protected Animator _animator;
+    protected AnimationController _animator;
     
 
-    public State(Player player)
+    public State(Player player, AnimationController animator)
     {
         _player = player;
+        _animator = animator;
     }
 
     public virtual void EnterState(StateMachine stateMachine)

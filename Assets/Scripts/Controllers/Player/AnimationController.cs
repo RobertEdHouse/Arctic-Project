@@ -21,12 +21,12 @@ public class AnimationController : MonoBehaviour
     #region IDLE
     public void IdleAnim()
     {
-        animator.SetTrigger("IsWalking");
+        animator.SetTrigger("IsIdle");
     }
 
     public void IdleAnimReset()
     {
-        animator.ResetTrigger("IsWalking");
+        animator.ResetTrigger("IsIdle");
     }
 
     #endregion
