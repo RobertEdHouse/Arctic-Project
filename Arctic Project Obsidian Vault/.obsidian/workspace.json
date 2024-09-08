@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Этап прототипирования.md",
+                "file": "Concept.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Этап прототипирования.md",
+                "file": "Concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Этап прототипирования.md",
+                "file": "Concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Этап прототипирования.md"
+                "file": "Concept.md"
               }
             }
           },
@@ -161,13 +161,15 @@
   },
   "active": "9814c3526b62069e",
   "lastOpenFiles": [
+    "PNGs/REAtmosphere.png",
+    "Concept.md",
+    "PNGs/That Which Gave Chase Exmpl.2.png",
+    "PNGs/That Which Gave Chase Exmpl.1.png",
     "Implemented modules.md",
-    "Этап прототипирования.md",
+    "Prototype stage.md",
     "Шаблоны для ссылок GitHub.md",
     "Arctic Project Obsidian Vault/Implemented modules.md",
     "Arctic Project Obsidian Vault",
-    "PNGs/REAtmosphere.png",
-    "Concept.md",
     "Untitled",
     "PNGs"
   ]
