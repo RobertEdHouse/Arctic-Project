@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "0892197f5c5990a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "defb58acbbac38e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9814c3526b62069e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concept.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4be51ecd31791cc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "291b7b55bc4b549b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2de87422cce92b67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85b8b38e10b35784",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "06cdec1dea636b75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9c8197d94db1893a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6da7a81bb03e3ad6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12a3c7a6582ebbcd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Concept.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2aef99d5574ab63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Concept.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e183987cc5c4143",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e83eed012e40026d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Concept.md"
+              }
+            }
+          },
+          {
+            "id": "34ed029f85e180f3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "9814c3526b62069e",
+  "lastOpenFiles": [
+    "Implemented modules.md",
+    "Prototype stage.md",
+    "PNGs/MountainOfMadness.png",
+    "Pasted image 20240908080513.png",
+    "Concept.md",
+    "PNGs/REAtmosphere.png",
+    "PNGs/That Which Gave Chase Exmpl.2.png",
+    "PNGs/That Which Gave Chase Exmpl.1.png",
+    "Шаблоны для ссылок GitHub.md",
+    "Arctic Project Obsidian Vault/Implemented modules.md",
+    "Arctic Project Obsidian Vault",
+    "Untitled",
+    "PNGs"
+  ]
+}
