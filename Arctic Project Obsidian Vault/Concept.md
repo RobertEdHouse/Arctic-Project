@@ -37,9 +37,12 @@
 <img src="PNGs/That%20Which%20Gave%20Chase%20Exmpl.2.png" width="300">
 </div>
 
+<div>
 <img src="PNGs/REAtmosphere.png" width="300">
+<img src="PNGs/MountainOfMadness.png" width="300">
+</div>
 
-![](Pasted%20image%2020240908080513.png)
+
 #### Фильмы/Книги 📽️ ➖ 📖
 - Нечто
 - Хребты Безумия
