@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Шаблоны для ссылок GitHub.md",
+                "file": "Этап прототипирования.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Шаблоны для ссылок GitHub.md",
+                "file": "Этап прототипирования.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Шаблоны для ссылок GitHub.md",
+                "file": "Этап прототипирования.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Шаблоны для ссылок GitHub.md"
+                "file": "Этап прототипирования.md"
               }
             }
           },
@@ -162,9 +162,9 @@
   "active": "9814c3526b62069e",
   "lastOpenFiles": [
     "Implemented modules.md",
-    "Arctic Project Obsidian Vault/Implemented modules.md",
     "Этап прототипирования.md",
     "Шаблоны для ссылок GitHub.md",
+    "Arctic Project Obsidian Vault/Implemented modules.md",
     "Arctic Project Obsidian Vault",
     "PNGs/REAtmosphere.png",
     "Concept.md",

@@ -1,4 +1,4 @@
-`[*Отображаемое имя ссылки*](Arctic%20Project%20Obsidian%20Vault/Concept.md) 
+`[*Отображаемое имя ссылки*](Concept.md) 
 
-Где `Arctic%20Project%20Obsidian%20Vault/Concept.md` это путь к файлу `/Arctic Project Obsidian Vault/Concept.md`
+Где `Concept.md` это путь к файлу `Concept.md`
 
