@@ -16,5 +16,14 @@
       "key": "T"
     }
   ],
-  "workspace:new-tab": []
+  "workspace:new-tab": [],
+  "templater-obsidian:[<% tp.system.prompt(\"Введите текст ссылки\") %>](<% tp.system.prompt(\"Введите путь к файлу\").replace(/ /g, \"%20\") %>)": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": []
 }
