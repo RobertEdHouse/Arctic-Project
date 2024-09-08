@@ -32,9 +32,9 @@
  - Пенумбра
  - That Which Gave Chase
  - Амнезия
-![](That%20Which%20Gave%20Chase%20Exmpl.1.png)
+![That Which Gave Chase Atmosphere 1](That%20Which%20Gave%20Chase%20Exmpl.1.png)
 
-![](That%20Which%20Gave%20Chase%20Exmpl.2.png)
+![That Which Gave Chase Atmosphere 2](That%20Which%20Gave%20Chase%20Exmpl.2.png)
 
 #### Фильмы/Книги 📽️ ➖ 📖
 - Нечто
