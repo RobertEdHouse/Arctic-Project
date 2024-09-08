@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IdleState : State
 {
-    public IdleState(Player player) : base(player)
+    public IdleState(Player player, AnimationController animator) : base(player, animator)
     {
         
     }
@@ -12,6 +12,7 @@ public class IdleState : State
     public override void EnterState(StateMachine stateMachine)
     {
         Debug.Log("Enter Idle State");
+        _animator.IdleAnim();
         //set animation "Idle"
     }
 
@@ -25,5 +26,9 @@ public class IdleState : State
         {
             stateMachine.SwitchState(stateMachine.MoveState);
         }
+    }
+    public override void ExitState(StateMachine stateMachine)
+    {
+        _animator.IdleAnimReset();
     }
 }

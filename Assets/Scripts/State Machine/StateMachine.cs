@@ -13,14 +13,15 @@ public class StateMachine : MonoBehaviour
     public  State SkiState;
     
     protected Player _player;
-    protected Animator _animator;
+    protected AnimationController _animator;
     public void Start()
     {
         _player = GetComponent<Player>();
-        IdleState = new IdleState(_player);
-        MoveState = new MoveState(_player);
-        SkiState = new SkiState(_player);
-        IdleSkiState = new IdleSkiState(_player);
+        _animator = GetComponent<AnimationController>();
+        IdleState = new IdleState(_player, _animator);
+        MoveState = new MoveState(_player, _animator);
+        SkiState = new SkiState(_player, _animator);
+        IdleSkiState = new IdleSkiState(_player, _animator);
         _currentState = IdleState;
         IdleState.EnterState(this);
     }

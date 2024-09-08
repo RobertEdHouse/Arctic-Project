@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class MoveState : State
 {
-    public MoveState(Player player) : base(player)
+    public MoveState(Player player, AnimationController animator) : base(player,animator)
     {
     }
 
     public override void EnterState(StateMachine stateMachine)
     {
         Debug.Log("Enter Move State");
+        _animator.WalkAnim();
         
     }
 
@@ -29,5 +30,9 @@ public class MoveState : State
         float deltaX = _player.movementVector.x * Time.deltaTime * _player.WalkingSpeed;
         float deltaY = _player.movementVector.y * Time.deltaTime *  _player.WalkingSpeed;
         _player.transform.Translate(deltaX, 0, deltaY);
+    }
+    public override void ExitState(StateMachine stateMachine)
+    {
+        _animator.WalkAnimReset();
     }
 }
