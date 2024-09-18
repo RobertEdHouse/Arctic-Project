@@ -4,45 +4,65 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    private PlayerControls playerControls;
+    private PlayerControls playerControls; //Этот клласс мы генерируем в инспекторе InputSystemAsset, после настройки самого ассета 
 
     private Vector2 moveDirection = Vector2.zero;
 
     private void Awake()
     {
-        playerControls = new PlayerControls();
+        playerControls = new PlayerControls(); //Нужно создать экземпляр
     }
 
 
     private void Start()
     {
+        //Подписываемся на обновления состояния нажатия клавиши направления
         playerControls.Player.Move.started += MoveHandler;
     }
 
-    private void MoveHandler(InputAction.CallbackContext context)
+    private void MoveHandler(InputAction.CallbackContext context) // Это обработчик события InputSystem, можем использовать что бы не злоупотреблять Update
     {
-        moveDirection = context.ReadValue<Vector2>();
+        //Мы получаем Callback от события и можем его обработать
+        moveDirection = context.ReadValue<Vector2>(); //ReadValue будет true если нажато так что можно использовать и в if 
+
+        #region DebugLog
+
+        if (moveDirection != Vector2.zero)
+        {
+            Debug.Log(moveDirection.ToString());
+        }
+
+        #endregion
     }
 
-    private void Update()
+    private void Update() //Это пример как использовать InputSystem напрямую в Update
     {
-        var move = playerControls.Player.Move.ReadValue<Vector2>();
-        if (move != Vector2.zero)
-        {
-            Debug.Log(move.ToString());
-        }
+        // Здесь получаем Vector2 который представляет направление движения
+        var moveVectror = playerControls.Player.Move.ReadValue<Vector2>();
+
+        #region DebugLog
+
+        //if (moveVectror != Vector2.zero)
+        //{
+        //    Debug.Log(moveVectror.ToString());
+        //}
+
+        #endregion
+
     }
 
 
     private void OnEnable()
     {
+        //Управление нужно обязательно включить
         playerControls.Enable();
     }
 
     private void OnDisable()
     {
+        //А потом выключить (для избежания утечки памяти)
         playerControls.Disable();
-        playerControls.Player.Move.started -= Move;
+        playerControls.Player.Move.started -= MoveHandler;
     }
 
 }
