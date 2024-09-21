@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdleState : State
+namespace Player.StateMachine
+{
+    public class IdleState : State
 {
     public IdleState(Player player, AnimationController animator) : base(player, animator)
     {
-        
+
     }
 
     public override void EnterState(StateMachine stateMachine)
@@ -22,7 +24,7 @@ public class IdleState : State
         {
             stateMachine.SwitchState(stateMachine.IdleSkiState);
         }
-        else if(_player.StateType == StateType.Move)
+        else if (_player.StateType == StateType.Move)
         {
             stateMachine.SwitchState(stateMachine.MoveState);
         }
@@ -31,4 +33,5 @@ public class IdleState : State
     {
         _animator.IdleAnimReset();
     }
+}
 }

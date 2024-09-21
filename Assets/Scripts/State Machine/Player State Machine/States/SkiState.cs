@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkiState : State
+namespace Player.StateMachine
+{
+    public class SkiState : State
 {
     public SkiState(Player player, AnimationController animator) : base(player, animator)
     {
@@ -10,7 +12,7 @@ public class SkiState : State
 
     public override void EnterState(StateMachine stateMachine)
     {
-        
+
         _animator.WalkAnim();
         Debug.Log("Enter Ski State");
     }
@@ -25,4 +27,5 @@ public class SkiState : State
     {
         _animator.WalkAnimReset();
     }
+}
 }

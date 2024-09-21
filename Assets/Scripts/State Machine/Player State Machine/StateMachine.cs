@@ -1,17 +1,16 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class StateMachine : MonoBehaviour
+namespace Player.StateMachine
+{
+    public class StateMachine : MonoBehaviour
 {
     private State _currentState;
 
     public State IdleState;
     public State IdleSkiState;
-    public  State MoveState;
-    public  State SkiState;
-    
+    public State MoveState;
+    public State SkiState;
+
     protected Player _player;
     protected AnimationController _animator;
     public void Start()
@@ -36,4 +35,5 @@ public class StateMachine : MonoBehaviour
         _currentState = state;
         _currentState.EnterState(this);
     }
+}
 }
