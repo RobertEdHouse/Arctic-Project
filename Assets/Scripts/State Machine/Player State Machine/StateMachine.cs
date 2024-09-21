@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Player.StateMachine
+namespace PlayerStateMachine
 {
     public class StateMachine : MonoBehaviour
 {

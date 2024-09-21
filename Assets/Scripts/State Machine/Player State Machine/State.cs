@@ -1,6 +1,6 @@
 
 
-namespace Player.StateMachine
+namespace PlayerStateMachine
 {
     public class State
     {

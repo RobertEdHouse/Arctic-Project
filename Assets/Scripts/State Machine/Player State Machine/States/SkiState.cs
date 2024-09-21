@@ -2,30 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Player.StateMachine
+namespace PlayerStateMachine
 {
     public class SkiState : State
-{
-    public SkiState(Player player, AnimationController animator) : base(player, animator)
     {
-    }
-
-    public override void EnterState(StateMachine stateMachine)
-    {
-
-        _animator.WalkAnim();
-        Debug.Log("Enter Ski State");
-    }
-    public override void UpdateState(StateMachine stateMachine)
-    {
-        if (_player.StateType == StateType.IdleSki)
+        public SkiState(Player player, AnimationController animator) : base(player, animator)
         {
-            stateMachine.SwitchState(stateMachine.IdleSkiState);
+        }
+
+        public override void EnterState(StateMachine stateMachine)
+        {
+
+            _animator.WalkAnim();
+            Debug.Log("Enter Ski State");
+        }
+        public override void UpdateState(StateMachine stateMachine)
+        {
+            if (_player.StateType == StateType.IdleSki)
+            {
+                stateMachine.SwitchState(stateMachine.IdleSkiState);
+            }
+        }
+        public override void ExitState(StateMachine stateMachine)
+        {
+            _animator.WalkAnimReset();
         }
     }
-    public override void ExitState(StateMachine stateMachine)
-    {
-        _animator.WalkAnimReset();
-    }
-}
 }
